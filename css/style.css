@@ -28,19 +28,23 @@ img {
 }
 
 h1 {
+  font-weight: 700;
   font-size: 2.5rem;
-  letter-spacing: 40px;
-  color: aliceblue;
-  text-align: center;
-}
-
-#bottom {
   letter-spacing: 30px;
+  color: aliceblue;
   text-align: center;
 }
 
 h1::selection {
     background: #97b5cd;
+}
+
+h2 {
+    font-family: "Raleway", sans-serif;
+    letter-spacing: 2px;
+    font-size: 1.5rem;
+    color: aliceblue;
+    text-align: center;
 }
 
 /* -------------------------------- 
