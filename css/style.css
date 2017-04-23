@@ -31,7 +31,7 @@ h1 {
   font-weight: 700;
   font-size: 2.5rem;
   letter-spacing: 30px;
-  color: aliceblue;
+  color: #ffffff;
   text-align: center;
 }
 
@@ -43,8 +43,12 @@ h2 {
     font-family: "Raleway", sans-serif;
     letter-spacing: 2px;
     font-size: 1.5rem;
-    color: aliceblue;
+    color: #ffffff;
     text-align: center;
+}
+
+h2::selection {
+    background: #97b5cd;
 }
 
 /* -------------------------------- 
