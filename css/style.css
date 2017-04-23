@@ -19,12 +19,23 @@ body {
 }
 
 a {
-  color: #9acd91;
+  color: #97b5cd;
   text-decoration: none;
 }
 
 img {
   max-width: 100%;
+}
+
+h1 {
+  font-size: 10.0rem;
+  font-family: "Montserrat", sans-serif;
+  color: aliceblue;
+  text-align: center;
+}
+
+h1::selection {
+    background: #97b5cd;
 }
 
 /* -------------------------------- 
@@ -51,7 +62,7 @@ Stretchy Nav style - common to:
   width: 60px;
   height: 60px;
   border-radius: 30px;
-  background: #9acd91;
+  background: #97b5cd;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
   -webkit-transition: height 0.2s, box-shadow 0.2s;
   -moz-transition: height 0.2s, box-shadow 0.2s;
@@ -198,7 +209,7 @@ Stretchy Nav style - common to:
   -ms-transform: translateX(3px) translateY(-50%) scaleY(0);
   -o-transform: translateX(3px) translateY(-50%) scaleY(0);
   transform: translateX(3px) translateY(-50%) scaleY(0);
-  background-color: #0a9581;
+  background-color: #1576c3;
 }
 .cd-stretchy-nav ul li:first-of-type a::after {
   /* change custom icon using image sprites */
