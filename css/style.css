@@ -13,7 +13,7 @@ html {
 
 body {
   font-size: 1.6rem;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #003c5d;
   background-color: #ffffff;
 }
@@ -29,7 +29,6 @@ img {
 
 h1 {
   font-size: 2.5rem;
-  font-family: "Montserrat", sans-serif;
   letter-spacing: 40px;
   color: aliceblue;
   text-align: center;
