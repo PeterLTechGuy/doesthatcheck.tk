@@ -35,10 +35,6 @@ h1 {
   text-align: center;
 }
 
-h1::selection {
-    background: #97b5cd;
-}
-
 h2 {
     font-family: "Raleway", sans-serif;
     letter-spacing: 2px;
@@ -47,7 +43,11 @@ h2 {
     text-align: center;
 }
 
-h2::selection {
+h1::selection {
+    background: #97b5cd;
+}
+
+i::selection {
     background: #97b5cd;
 }
 
