@@ -9,11 +9,13 @@ jQuery(document).ready(function(){
 			stretchyNavTrigger.on('click', function(event){
 				event.preventDefault();
 				stretchyNav.toggleClass('nav-is-visible');
+                // $('.cd-main-content').fadeTo("slow", 0.5);
 			});
 		});
-
+        
 		$(document).on('click', function(event){
 			( !$(event.target).is('.cd-nav-trigger') && !$(event.target).is('.cd-nav-trigger span') ) && stretchyNavs.removeClass('nav-is-visible');
 		});
+        
 	}
 });

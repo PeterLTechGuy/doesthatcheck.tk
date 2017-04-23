@@ -15,7 +15,7 @@ body {
   font-size: 1.6rem;
   font-family: "Montserrat", sans-serif;
   color: #003c5d;
-  background-color: #ffffff;
+  background-color: #000000;
 }
 
 a {
@@ -27,10 +27,21 @@ img {
   max-width: 100%;
 }
 
+.text-div {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 0 75px 100px 75px;
+}
+
 h1 {
   font-weight: 700;
   font-size: 2.5rem;
   letter-spacing: 30px;
+  line-height: 30px;
   color: #ffffff;
   text-align: center;
 }
@@ -346,7 +357,7 @@ Stretchy Nav style - common to:
   position: relative;
   z-index: 1;
   min-height: 100vh;
-  padding: 100px 0;
+  padding: 100px 100px 100px 100px;
   background-image: url(../img/dyk1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
