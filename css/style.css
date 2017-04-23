@@ -35,6 +35,11 @@ h1 {
   text-align: center;
 }
 
+#bottom {
+  letter-spacing: 30px;
+  text-align: center;
+}
+
 h1::selection {
     background: #97b5cd;
 }
