@@ -14,10 +14,8 @@ html {
 body {
   font-size: 1.6rem;
   font-family: "Source Sans Pro", sans-serif;
-  background-image: url(../img/dyk1.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
+  color: #003c5d;
+  background-color: #ffffff;
 }
 
 a {
