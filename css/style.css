@@ -311,6 +311,7 @@ Stretchy Nav style - common to:
 }
 .no-touch .cd-stretchy-nav.nav-is-visible ul a:hover {
   color: #ffffff;
+  text-decoration: none;
 }
 .no-touch .cd-stretchy-nav.nav-is-visible ul a:hover::after {
   opacity: 1;
